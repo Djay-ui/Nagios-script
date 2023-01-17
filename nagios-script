@@ -17,7 +17,7 @@ unzip \
 wget -y
 
 cd /tmp
-sudo wget http://192.168.1.251/sw/sec_tools/nagios/nagios-4.4.5.tar.gz
+sudo wget http://192.168.1.251/sw/nagios/nagios-4.4.5.tar.gz
 sudo tar -zxf nagios-4.4.5.tar.gz
 cd  nagios-4.4.5
 
@@ -62,7 +62,7 @@ libssl-dev \
 snmp -y
 
 cd /tmp
-sudo wget http://192.168.1.251/sw/sec_tools/nagios/nagios-plugins-release-2.2.1.tar.gz
+sudo wget http://192.168.1.251/sw/nagios/nagios-plugins-release-2.2.1.tar.gz
 sudo tar -zxf nagios-plugins-release-2.2.1.tar.gz
 cd  nagios-plugins-release-2.2.1
 sudo ./tools/setup
